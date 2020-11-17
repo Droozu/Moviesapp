@@ -28,7 +28,7 @@ const MoviesView = ({ guestSessionId, loadingGenres, setIsRated }) => {
         results: movies,
         total_results: total,
         page,
-      } = await moviesServ.getMoviesByKeyword(queryWord, pageNumber);
+      } = await moviesServ.getMoviesByKeyword(queryWord === "" ? 'return' : queryWord, pageNumber);
 
       if (!total) {
         setErr("Sorry, no results were found for your search.");
@@ -67,7 +67,7 @@ const MoviesView = ({ guestSessionId, loadingGenres, setIsRated }) => {
     try {
       await moviesServ.rateMovieById(movieId, guestSessionId, data);
     } catch (error) {
-      setErr("Error with reate this movie");
+      setErr("Error with rate this movie");
     }
     setIsRated();
   };

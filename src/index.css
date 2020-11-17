@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  font-family: intermedium !important;
+  font-family: intermedium, serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

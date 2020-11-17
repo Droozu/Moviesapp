@@ -23,7 +23,7 @@ export default class MovieService {
     }
   }
 
-  async getMoviesByKeyword(keyword = "game", pageNumber = 1) {
+  async getMoviesByKeyword(keyword = "return", pageNumber = 1) {
     return this.request(
       `${this.apiUrl}search/movie?${process.env.REACT_APP_API_KEY}&query=${keyword}&page=${pageNumber}&include_adult=false`
     );
