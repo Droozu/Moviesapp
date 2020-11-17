@@ -87,7 +87,7 @@ const Movie = ({ movie, rateMovie }) => {
         count={10}
         allowHalf
         defaultValue={rating}
-        value={rating}
+        // value={rating}
         style={{ fontSize: 15 }}
         onChange={(value) => {
           rateMovie(id, { value });
