@@ -69,7 +69,7 @@ const RatedMoviesPage = ({ guestSessionId, loadingGenres, tab, isRated }) => {
   const contentView = hasData ? (
     <>
       <div className="movies">
-        <MoviesList moviesList={movieData.moviesList}  rateMovie={null}/>
+        <MoviesList moviesList={movieData.moviesList}/>
       </div>
       <div className="pagination">
         <Pagination
