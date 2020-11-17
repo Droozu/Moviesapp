@@ -1,0 +1,8 @@
+@import './Style/fonts/Stylesheet.css';
+
+body {
+  margin: 0;
+  font-family: intermedium !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

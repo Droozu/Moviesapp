@@ -1,0 +1,30 @@
+.ant-tabs {
+  margin: 0 auto;
+  width: 1010px;
+  background: #ffffff;
+  padding: 13px 36px 14px 36px;
+
+}
+
+.ant-tabs-tabpane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ant-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.ant-pagination-options {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .ant-tabs {
+    width: 100%;
+    padding: 19px 16px 17px 16px;
+  }
+}

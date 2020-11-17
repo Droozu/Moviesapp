@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'intermedium';
+    src: url('inter-medium-webfont.eot');
+    src: url('inter-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('inter-medium-webfont.woff2') format('woff2'),
+         url('inter-medium-webfont.woff') format('woff'),
+         url('inter-medium-webfont.ttf') format('truetype'),
+         url('inter-medium-webfont.svg#intermedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
